@@ -29,26 +29,45 @@
 }
 .menuList:active,
 .menuList:visited:active {
-  color: #c62e35;  /*Rosso logo*/
+  color: #af2b2b;  /*Rosso logo*/
   text-decoration: none;
 }
-.welcome {
-  background-color: #c62e35;
-  position:relative;
-  height: 250px;
-}
 .text {
-    border: 2px solid yellow;
-  text-align: justify;
-  position: absolute;
-  left: -5px;
-  bottom: -15px;
-}
-.text h1 {
+  text-align: center;
   font-family:'Roboto', sans-serif;
-  color:white;
+  color: white;
+  background-color: #af2b2b;
   font-weight:900;
   font-size: 55px;
+  padding: 150px 50px;
+  letter-spacing: 10px;
+}
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+section .me {
+  margin-top: 40px;
+  width: 70%;
+}
+.capture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section h2 {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
+  letter-spacing: 4px;
+  font-size: 22px;
+}
+section p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
 }
 @media screen and (min-width:600px) {
   .firstHeader {
@@ -59,7 +78,7 @@
     padding-left: 0;
   }
   .logo {
-    width: 50%;
+    width: 45%;
     margin: 0;
   }
   .menu{
@@ -70,17 +89,27 @@
     font-size:0.9em;
     margin-left: 20px;
   }
-  .welcome {
-    height: 350px;
-  }
   .text {
-    left: -7px;
-    bottom: -19px;
-  }
-  .text h1 {
     font-family:'Roboto', sans-serif;
     font-weight: 900;
     font-size: 70px;
+  }
+  .aboutMe {
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .capture {
+    align-items: flex-start;
+  }
+  section .me {
+    margin: 60px 60px;
+    width: 45%;
+  }
+  section h2 {
+   margin-right: 30px;
   }
 }
 @media screen and (min-width:900px) {
@@ -95,17 +124,21 @@
   }
   .menuList:hover,
   .menuList:visited:hover {
-   border-bottom: 2px solid #c62e35;
-  }
-  .welcome {
-    height: 450px;
+   border-bottom: 2px solid #af2b2b;
   }
   .text {
-    left: -10px;
-    bottom: -23px;
-  }
-  .text h1 {
-    font-size: 80px;
+   font-size: 80px;
+   padding: 180px;
   }
 
+  section .me {
+    margin-top: 60px;
+    width: 40%;
+  }
+  section h2 {
+    font-size: 30px;
+  }
+  section p {
+    font-size: 20px;
+  }
 }
