@@ -4,9 +4,13 @@
   box-sizing: border-box;
 }
 @font-face {
-  font-family: 'Helvetica Neue';
-  src: url('font/Helvetica-Neue-Condensed-Black.woff') format('woff');
-  font-style: condensed;
+  font-family: 'Roboto';
+  src: url(roboto-v20-latin-300.woff) format(woff);
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url(roboto-v20-latin-900.woff) format(woff);
   font-weight: 900;
 }
 .firstHeader {
@@ -49,9 +53,9 @@
   bottom: -15px;
 }
 .text h1 {
-  font-family: sans-serif;
+  font-family: 'Roboto' sans-serif;
   color:white;
-  font-weight:bold;
+  font-weight:900;
   font-size: 55px;
 }
 @media screen and (min-width:600px) {
@@ -82,7 +86,8 @@
     bottom: -19px;
   }
   .text h1 {
-    font-family:'Helvetica Neue';
+    font-family:'Roboto' sans-serif;
+    font-weight: 900;
     font-size: 70px;
   }
 }
