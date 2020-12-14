@@ -17,8 +17,10 @@
 .menu * li {
   display: inline;
   list-style: none;
-  font-family:sans-serif;
+  font-family:'Roboto', sans-serif;
+  font-weight: 300;
   font-size: 14px;
+  margin: 0 10px;
 }
 .menuList:link,
 .menuList:visited {
@@ -43,7 +45,7 @@
   bottom: -15px;
 }
 .text h1 {
-  font-family: 'Roboto' sans-serif;
+  font-family:'Roboto', sans-serif;
   color:white;
   font-weight:900;
   font-size: 55px;
@@ -76,7 +78,7 @@
     bottom: -19px;
   }
   .text h1 {
-    font-family:'Roboto' sans-serif;
+    font-family:'Roboto', sans-serif;
     font-weight: 900;
     font-size: 70px;
   }
