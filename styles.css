@@ -3,16 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-@font-face {
-  font-family: 'Roboto';
-  src: url(roboto-v20-latin-300.woff) format(woff);
-  font-weight: 300;
-}
-@font-face {
-  font-family: 'Roboto';
-  src: url(roboto-v20-latin-900.woff) format(woff);
-  font-weight: 900;
-}
 .firstHeader {
   display: flex;
   flex-direction: column;
