@@ -46,7 +46,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto;
   justify-content: center;
 }
 section .me {
@@ -58,18 +57,88 @@ section .me {
   flex-direction: column;
   align-items: center;
 }
-section h2 {
+ section h2 {
   font-family: 'Roboto', sans-serif;
-  margin-top: 30px;
   letter-spacing: 4px;
   font-size: 22px;
 }
-section p {
+ section p {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 14px;
 }
+.capture > h2 {
+  margin-top: 30px;
+}
+ a.button:link,
+ a.button:visited {
+  margin-top: 30px;
+  padding: 5px 75px;
+  background-color: #af2b2b;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  text-decoration: none;
+}
+ a.button:active,
+ a.button:visited:active {
+   background-color: black;
+   color: white;
+}
+ .aboutWorks {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+ .aboutWorks > h2 {
+   margin-top: 90px;
+ }
+ .workRev {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+ .workPic {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+ .workPic > p {
+   margin-top: 30px;
+   color: #af2b2b;
+}
+ .picture {
+   margin-top: 10px;
+   width: 70%;
+}
+ .aboutContacts {
+   background-color: #af2b2b;
+   margin-top: 90px;
+   padding: 50px 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ section .touch {
+   color: white;
+ }
+ section .btContacts:link,
+ section .btContacts:visited {
+   background-color: white;
+   color: black;
+ }
+ section .btContacts:active,
+ section .btContacts:visited:active {
+   background-color: black;
+   color: white;
+ }
+
+
 @media screen and (min-width:600px) {
+  .content {
+    margin: 0 5%;
+  }
   .firstHeader {
     flex-direction: row;
     justify-content: space-between;
@@ -95,7 +164,6 @@ section p {
     font-size: 70px;
   }
   .aboutMe {
-    border: 2px solid green;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -109,9 +177,36 @@ section p {
     width: 45%;
   }
   section h2 {
-   margin-right: 30px;
+    margin-right: 30px;
+  }
+  a.button:link,
+  a.button:visited {
+    padding: 5px 64px;
+  }
+  .aboutWorks {
+    align-items: flex-start;
+  }
+  .aboutWorks > h2 {
+    margin-left: 7%;
+  }
+  .workRev {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .btWorks {
+    margin-left: 7%;
+  }
+  .aboutContacts {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  a.btContacts:link,
+  a.btContacts:visited {
+    margin-top: 0;
   }
 }
+
+
 @media screen and (min-width:900px) {
   .firstHeader {
      padding-right: 100px;
@@ -139,6 +234,23 @@ section p {
     font-size: 30px;
   }
   section p {
-    font-size: 20px;
+    font-size: 1em;
+  }
+  a.button:link,
+  a.button:visited {
+  margin-top: 80px;
+  padding: 8px 102px;
+  font-size: 1em;
+  transition-property: padding;
+  transition-duration: 1s;
+  }
+  a.button:hover,
+  a.button:visited:hover {
+    padding: 10px 110px;
+    text-decoration: underline;
+  }
+  a.btContacts:link,
+  a.btContacts:visited {
+    margin-top: 0;
   }
 }
