@@ -177,6 +177,27 @@ footer {
   margin-bottom: 0;
 }
 
+/*Fine pagina About*/
+
+/*Inizio pagina Works*/
+
+.illustration {
+    border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+.Grid {
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  margin: 10% 10%;
+}
+.gridItem {
+width: 100%;
+}
+
 @media screen and (min-width:600px) {
   .content {
     margin: 0 5%;
@@ -275,6 +296,19 @@ footer {
     width: 50%;
     text-align: center;
   }
+
+  /*Fine pagina About*/
+
+  /*Inizio pagina Works*/
+
+  .Grid {
+    flex-direction:row;
+    flex-wrap: wrap;
+  }
+  .gridItem {
+      border: 2px solid red;
+    width: 50%;
+  }
 }
 
 
@@ -354,5 +388,17 @@ footer {
   }
   .btAbout {
     width: 40%;
+  }
+  /*Fine pagina About*/
+
+  /*Inizio pagina Works*/
+  .illustration {
+   margin-top: 5%;
+  }
+  .Grid {
+    margin: 5% 5%;
+  }
+  .gridItem {
+    width: 25%;
   }
 }
