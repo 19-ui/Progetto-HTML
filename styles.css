@@ -181,8 +181,8 @@ footer {
 
 /*Inizio pagina Works*/
 
-.illustration {
-    border: 2px solid black;
+.illustration,
+.projects {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -306,7 +306,6 @@ width: 100%;
     flex-wrap: wrap;
   }
   .gridItem {
-      border: 2px solid red;
     width: 50%;
   }
 }
@@ -392,7 +391,8 @@ width: 100%;
   /*Fine pagina About*/
 
   /*Inizio pagina Works*/
-  .illustration {
+  .illustration,
+  .projects {
    margin-top: 5%;
   }
   .Grid {
