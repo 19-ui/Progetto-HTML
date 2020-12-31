@@ -198,6 +198,39 @@ footer {
 width: 100%;
 }
 
+/*Fine pagina Works*/
+
+/*Inizio pagina Contacts*/
+
+.aboutLink {
+    border: 2px solid olive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: cenrer;
+  width: 80%;
+}
+.mail {
+    border: 2px solid orange;
+}
+.follow {
+    border: 2px solid pink;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+.socialGrid {
+    border: 2px solid aqua;
+}
+.socialItem {
+    border: 2px solid purple;
+  display: flex;
+  width: 100%;
+}
+.socialIMG {
+    border: 2px solid yellow;
+  width: 50px;
+}
 @media screen and (min-width:600px) {
   .content {
     margin: 0 5%;
