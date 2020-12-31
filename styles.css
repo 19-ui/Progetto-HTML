@@ -203,33 +203,68 @@ width: 100%;
 /*Inizio pagina Contacts*/
 
 .aboutLink {
-    border: 2px solid olive;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: cenrer;
-  width: 80%;
+  margin: 0 20%;
 }
 .mail {
-    border: 2px solid orange;
+  text-align: center;
+  margin: 20% 0;
+  width: 100%;
+}
+.sendMail:link,
+.sendMail:visited {
+  display: block;
+  margin-top: 10%;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+}
+.sendMail:active,
+.sendMail:visited:active {
+  color:  #af2b2b;
 }
 .follow {
-    border: 2px solid pink;
   display: flex;
   flex-direction:column;
   align-items: center;
+  width: 100%;
+  margin-bottom: 20%;
 }
 .socialGrid {
-    border: 2px solid aqua;
+  margin-top: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .socialItem {
-    border: 2px solid purple;
   display: flex;
+  flex-direction: column;
   width: 100%;
+  margin-top: 10%;
+}
+.socialItem:first-child {
+  margin-top: 0;
+}
+.socialLink:link,
+.socialLink:visited {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2%;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+}
+.socialLink:active,
+.socialLink:visited:active {
+  color: #af2b2b;
 }
 .socialIMG {
-    border: 2px solid yellow;
   width: 50px;
+  margin: 0 auto;
 }
 @media screen and (min-width:600px) {
   .content {
@@ -341,8 +376,46 @@ width: 100%;
   .gridItem {
     width: 50%;
   }
-}
 
+  /*Fine pagina Works*/
+
+  /*Inizio pagina Contacts*/
+
+  .aboutLink {
+    align-items: flex-start;
+    margin: 0 5%;
+  }
+  .mail {
+    text-align: left;
+    margin: 10% 0;
+    width: 50%;
+  }
+  .sendMail:link,
+  .sendMail:visited {
+  text-align:left;
+  margin-top: 5%;
+  }
+  .follow {
+    align-items: flex-start;
+    margin-bottom: 10%;
+  }
+  .socialGrid {
+    margin-top: 5%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .socialItem {
+    width: 15%;
+    margin-top: 10%;
+    align-self: flex-start;
+  }
+  .socialItem {
+    margin-top: 0;
+  }
+  .socialIMG {
+    width: 60px;
+  }
+}
 
 @media screen and (min-width:900px) {
   .firstHeader {
@@ -433,5 +506,49 @@ width: 100%;
   }
   .gridItem {
     width: 25%;
+  }
+
+  /*Fine pagina Works*/
+
+  /*Inizio pagina Contacts*/
+
+  .mail {
+    margin: 5% 0;
+    width: 20%;
+  }
+  .sendMail:link,
+  .sendMail:visited {
+  font-size: 16px;
+  width: 83%;
+  }
+  .sendMail:hover,
+  .sendMail:visited:hover {
+    border-bottom: 2px solid #af2b2b;
+  }
+  .follow {
+    width: 50%;
+    margin-bottom: 5%;
+  }
+  .socialGrid {
+    margin-top: 2%;
+  }
+  .socialItem {
+    margin-top: 10%;
+    align-self: flex-start;
+  }
+  .socialLink:link,
+  .socialLink:visited {
+    font-size: 16px;
+    margin-bottom: 10%;
+  }
+  .socialLink:hover,
+  .socialLink:visited:hover {
+    border-bottom: 2px solid #af2b2b;
+  }
+  .socialItem {
+    margin-top: 0;
+  }
+  .socialIMG {
+    width: 70px;
   }
 }
