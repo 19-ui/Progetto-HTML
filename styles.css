@@ -146,7 +146,62 @@ footer {
 /* Fine pagina "Home"*/
 
 /* Inizio pagina "About"*/
-article {
+
+.about {
+  margin-top: 10px;
+  font-size: 25px;
+  padding: 75px 50px;
+}
+article.cv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10% 10%;
+}
+.cvCapture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cvPic {
+  width: 100%;
+  margin-bottom: 10%;
+}
+.textGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0 5% 10% 5%;
+}
+.mySkills {
+  background-color: #af2b2b;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mySkills h2 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 4px;
+  font-size: 22px;
+  margin: 5% 0 5% 0;
+}
+.imgTool {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tool {
+  margin: 0 2% 5% 0;
+  width: 30%;
+  height: 30%;
+}
+/*article {
   border: 2px solid purple;
 }
 .about {
@@ -187,7 +242,8 @@ article {
 }
 .skill {
   margin: 3px;
-}
+}*/
+
 /*Fine pagina About*/
 
 /*Inizio pagina Works*/
@@ -355,6 +411,28 @@ width: 100%;
   .about {
     font-size: 35px;
   }
+  .textGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .paragraph {
+    margin: 0;
+    width: 45%;
+  }
+  .mySkills {
+    width: 45%;
+  }
+  .tool {
+    margin: 0 2% 5% 0;
+    width: 35%;
+    height: 35%;
+  }
+
+  /*.about {
+    font-size: 35px;
+  }
   .cv {
     align-items: flex-start;
     margin: 5% 5%;
@@ -374,7 +452,7 @@ width: 100%;
   .btAbout {
     width: 50%;
     text-align: center;
-  }
+  }*/
 
   /*Fine pagina About*/
 
@@ -482,7 +560,45 @@ width: 100%;
   /* Fine pagina "Home"*/
 
   /* Inizio pagina "About"*/
+
   .about {
+  font-size: 40px;
+  padding: 90px;
+  }
+  .cvCapture {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+  }
+  .cvPic {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 0;
+  }
+  .textGroup {
+    margin-left: 5%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .paragraph {
+    width: 85%;
+  }
+  .mySkills {
+    margin-top: 6%;
+    width: 85%;
+    align-items: flex-start;
+  }
+  .mySkills h2 {
+    margin-left: 10%;
+  }
+  .tool {
+    width: 15%;
+    height: 15%;
+  }
+
+    /*.about {
     font-size: 40px;
     padding: 90px;
   }
@@ -504,7 +620,9 @@ width: 100%;
   }
   .btAbout {
     width: 40%;
-  }
+  }*/
+
+
   /*Fine pagina About*/
 
   /*Inizio pagina Works*/
