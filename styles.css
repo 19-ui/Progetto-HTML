@@ -247,7 +247,15 @@ article.cv {
 /*Fine pagina About*/
 
 /*Inizio pagina Works*/
-
+.works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.click:link,
+.click:active {
+  margin: 5% 0;
+}
 .illustration,
 .projects {
   display: flex;
@@ -597,6 +605,7 @@ width: 100%;
     width: 15%;
     height: 15%;
   }
+
 
     /*.about {
     font-size: 40px;
