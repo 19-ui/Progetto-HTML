@@ -309,7 +309,7 @@ width: 100%;
   margin-bottom: 20%;
 }
 .socialGrid {
-  margin-top: 10%;
+  margin-top: 20%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -338,7 +338,7 @@ width: 100%;
   color: #af2b2b;
 }
 .socialIMG {
-  width: 50px;
+  width: 90px;
   margin: 0 auto;
 }
 @media screen and (min-width:600px) {
@@ -504,13 +504,12 @@ width: 100%;
   .socialItem {
     width: 15%;
     margin-top: 10%;
-    align-self: flex-start;
   }
   .socialItem {
     margin-top: 0;
   }
   .socialIMG {
-    width: 60px;
+    width: 80px;
   }
 }
 
@@ -658,6 +657,7 @@ width: 100%;
   .sendMail:visited {
   font-size: 16px;
   width: 83%;
+  margin-top: 10%;
   }
   .sendMail:hover,
   .sendMail:visited:hover {
@@ -665,10 +665,10 @@ width: 100%;
   }
   .follow {
     width: 50%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
   }
   .socialGrid {
-    margin-top: 2%;
+    margin-top: 5%;
   }
   .socialItem {
     margin-top: 10%;
@@ -687,6 +687,6 @@ width: 100%;
     margin-top: 0;
   }
   .socialIMG {
-    width: 70px;
+    width: 90px;
   }
 }
