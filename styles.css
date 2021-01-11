@@ -24,7 +24,7 @@
 }
 .menuList:link,
 .menuList:visited {
-  color: black;
+  color: #000000; /*nero*/
   text-decoration: none;
 }
 .menuList:active,
@@ -35,7 +35,7 @@
 .text {
   text-align: center;
   font-family:'Roboto', sans-serif;
-  color: white;
+  color: #ffffff; /*bianco*/
   background-color: #af2b2b;
   font-weight:900;
   font-size: 55px;
@@ -76,7 +76,7 @@ section .me {
   margin-top: 30px;
   padding: 5px 75px;
   background-color: #af2b2b;
-  color: white;
+  color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -84,8 +84,8 @@ section .me {
 }
  a.button:active,
  a.button:visited:active {
-   background-color: black;
-   color: white;
+   background-color: #000000;
+   color: #ffffff;
 }
  .aboutWorks {
    display: flex;
@@ -122,22 +122,22 @@ section .me {
    align-items: center;
  }
  section .touch {
-   color: white;
+   color: #ffffff;
  }
  section .btContacts:link,
  section .btContacts:visited {
-   background-color: white;
-   color: black;
+   background-color: #ffffff;
+   color: #000000;
  }
  section .btContacts:active,
  section .btContacts:visited:active {
-   background-color: black;
-   color: white;
+   background-color: #000000;
+   color: #ffffff;
  }
 footer {
   padding: 25px;
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
   font-family: 'Roboto';
   font-weight: 300;
   font-size: 11px;
@@ -180,7 +180,7 @@ article.cv {
 }
 .mySkills {
   background-color: #af2b2b;
-  color: white;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -201,48 +201,6 @@ article.cv {
   width: 30%;
   height: 30%;
 }
-/*article {
-  border: 2px solid purple;
-}
-.about {
-  margin-top: 10px;
-  font-size: 25px;
-  padding: 75px 50px;
-}
-.cv {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10% 10%;
-}
-.cvPic {
-  width: 100%;
-  margin-bottom: 10%;
-}
-
-.paragraph {
-    border: 2px solid olive;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  margin: 0 10%;
-  margin-bottom: 5%;
-}
-
-.paragraph:last-child {
-  margin-bottom: 0;
-}
-.mySkills {
-  border: 2px solid violet;
-  margin-top: 10%;
-  width: 80%;
-  padding: 20% 0;
-  background-color: #af2b2b;
-  color: white;
-}
-.skill {
-  margin: 3px;
-}*/
 
 /*Fine pagina About*/
 
@@ -292,7 +250,7 @@ width: 100%;
 .sendMail:visited {
   display: block;
   margin-top: 10%;
-  color: black;
+  color: #000000;
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
   font-size: 14px;
@@ -328,7 +286,7 @@ width: 100%;
   display: block;
   margin: 0 auto;
   margin-bottom: 2%;
-  color: black;
+  color: #000000;
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
   font-size: 14px;
@@ -437,30 +395,6 @@ width: 100%;
     width: 35%;
     height: 35%;
   }
-
-  /*.about {
-    font-size: 35px;
-  }
-  .cv {
-    align-items: flex-start;
-    margin: 5% 5%;
-  }
-  .cvPic {
-    width: 50%;
-    margin-bottom: 10%;
-  }
-  .pGroup {
-      display: flex;
-      justify-content: space-between;
-  }
-  .p1 {
-    margin-bottom: 0;
-    width: 50%;
-  }
-  .btAbout {
-    width: 50%;
-    text-align: center;
-  }*/
 
   /*Fine pagina About*/
 
@@ -605,35 +539,10 @@ width: 100%;
     height: 15%;
   }
 
-
-    /*.about {
-    font-size: 40px;
-    padding: 90px;
-  }
-
-  .cvCapture {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
-  .cvPic {
-    width: 40%;
-    height: 40%;
-    margin-bottom: 0;
-  }
-  .cvText {
-    width: 60%;
-    height: 60%;
-    margin-left: 10%;
-  }
-  .btAbout {
-    width: 40%;
-  }*/
-
-
   /*Fine pagina About*/
 
   /*Inizio pagina Works*/
+  
   .illustration,
   .projects {
    margin-top: 5%;
